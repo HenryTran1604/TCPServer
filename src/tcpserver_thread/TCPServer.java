@@ -37,9 +37,9 @@ public class TCPServer implements Runnable {
                 try {
                     conn = this.server.accept();
                     ClientHandler clientHandler = new ClientHandler(conn);
-                    pool.execute(clientHandler);
-//                    Thread t = new Thread(clientHandler);
-//                    t.start();
+//                    pool.execute(clientHandler);
+                    Thread t = new Thread(clientHandler);
+                    t.start();
                 } catch (IOException ex) {
                     System.out.println(ex.getCause());
                 }

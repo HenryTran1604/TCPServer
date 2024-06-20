@@ -3,9 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/QuangHuy/OneDrive%20-%20ptit.edu.vn/Desktop/GraduationThesis/Preparation/TcpServer/src/tcpserver/ClientMultiThreadTest.java</file>
-            <file>file:/C:/Users/QuangHuy/OneDrive%20-%20ptit.edu.vn/Desktop/GraduationThesis/Preparation/TcpServer/src/tcpserver/TCPClient.java</file>
-            <file>file:/C:/Users/QuangHuy/OneDrive%20-%20ptit.edu.vn/Desktop/GraduationThesis/Preparation/TcpServer/src/tcpserver/TCPServer.java</file>
+            <file>file:/C:/Users/QuangHuy/OneDrive%20-%20ptit.edu.vn/Desktop/GraduationThesis/Preparation/TcpServer/src/tcpserver_thread/ClientHandler.java</file>
+            <file>file:/C:/Users/QuangHuy/OneDrive%20-%20ptit.edu.vn/Desktop/GraduationThesis/Preparation/TcpServer/src/tcpserver_thread/TCPServer.java</file>
+            <file>file:/C:/Users/QuangHuy/OneDrive%20-%20ptit.edu.vn/Desktop/GraduationThesis/Preparation/TcpServer/src/tcpserver_thread/ClientMultiThreadTest.java</file>
+            <file>file:/C:/Users/QuangHuy/OneDrive%20-%20ptit.edu.vn/Desktop/GraduationThesis/Preparation/TcpServer/src/tcpserver_thread/TCPClient.java</file>
         </group>
     </open-files>
 </project-private>

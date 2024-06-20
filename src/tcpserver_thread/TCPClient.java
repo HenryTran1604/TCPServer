@@ -52,7 +52,7 @@ public class TCPClient implements Runnable{
             String question = dis.readUTF();
             int sum = calcSum(question);
             System.out.println("question: " + question);
-//            TimeUnit.SECONDS.sleep((int) (Math.random() * 6));
+            TimeUnit.SECONDS.sleep((int) (Math.random() * 6));
             // send back to server
             dos.writeInt(sum);
             dis.close();
@@ -60,6 +60,8 @@ public class TCPClient implements Runnable{
             System.out.println("---------End--------");
         } catch(IOException ex) {
             // TODO: handle
+        } catch (InterruptedException ex) {
+            Logger.getLogger(TCPClient.class.getName()).log(Level.SEVERE, null, ex);
         }
         finally {
             shutdown();
