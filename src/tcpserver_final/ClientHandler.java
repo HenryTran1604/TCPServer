@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package tcpserver_filnal;
+package tcpserver_final;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -34,6 +34,7 @@ public class ClientHandler implements Runnable{
             DataInputStream dis = new DataInputStream(this.socket.getInputStream());
             DataOutputStream dos = new DataOutputStream(this.socket.getOutputStream());
             
+            System.out.println("Connect to " + this.socket.getInetAddress().getHostAddress());
             // TODO: Logic here
             
             dos.close();
